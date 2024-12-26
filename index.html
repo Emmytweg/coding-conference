@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Conf 2025</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+</head>
+<body>
+    <div class="decorative-lines"></div>
+    <div class="decorative-circles"></div>
+    <div class="decorative-slope-one"></div>
+    <div class="container">
+        <header>
+         
+            <img src="logo-full.svg" alt="">
+            <h1>Your Journey to Coding Conf 2025 Starts Here!</h1>
+            <p>Secure your spot at next year's biggest coding conference.</p>
+        </header>
+        
+      
+
+    <div class="form-upload">
+
+        <div class="upload-avatar">
+            <label for="avatar">Upload Avatar</label>
+            <div class="upload-box" >
+                <div class="upload-icon">
+                    <img src="icon-upload.svg" alt="" id="imgUpload">
+
+                </div>
+                <div class="remove-change-btns">
+                    <button id="removeBtn">Remove image</button>
+                    <button id="changeBtn">Change image</button>
+                </div>
+               <span class="dragDrop">Drag and drop or click to upload</span> 
+            </div>
+            <input type="file" id="avatar" accept="image/png, image/jpeg">
+           
+<div class="errorConUpload">
+    <img src="icon-info.svg" alt="" class="infoIcon"> 
+    <img src="icon-info.svg" alt="" class="myIcon"> 
+    <span id="originalWarn">
+Upload your photo (JPG or PNG, max size: 500KB).
+    </span>
+    <span class="errorUpload"></span>
+</div>
+        </div>
+
+        <form>
+            <div class="form-group">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" placeholder="Full Name" >
+                
+                <div class="errorConName">
+                    <img src="icon-info.svg" alt="" class="infoIcon">
+                <span class="errorName"> </span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="example@email.com" >
+              
+                <div class="errorConEmail">
+                    <img src="icon-info.svg" alt="" class="infoIcon">
+                    <span class="errorEmail"> </span>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="github">GitHub Username</label>
+                <input type="text" id="github" placeholder="@yourusername" >
+                <div class="errorConGit">
+                    <img src="icon-info.svg" alt="" class="infoIcon">
+                    <span class="errorGit"> </span>
+                </div>
+              
+            </div>
+
+            <button type="submit" class="btn">Generate My Ticket</button>
+        </form>
+
+    </div>
+    </div>
+
+    <!-- congrats container -->
+     <div class="congratsCon">
+        <header>
+         <img src="logo-full.svg" alt="">
+            <h1>Congrats, <span class="userFullName"></span>! Your ticket is ready</h1>
+            <p>We've emailed your ticket to <span class="userEmail"></span> and will send updates in the run up to the event.</p>
+        </header>
+       <div class="form-upload">
+        <div class="ticket ">
+            <div class="ticket-content">
+                <div class="info">
+                   <div class="info-header">
+                    <img src="logo-full.svg" alt="">
+                    <p>Jan 31, 2025 / Austin, TX</p>
+                   </div>
+                    <div class="profile">
+                        <img src="image-avatar.jpg" alt="Profile Picture" id="viewImage">
+                        <div class="name-con">
+                            <p class="name"></p>
+                            <span class="username">
+                                <img src="icon-github.svg" alt="">
+                                @<span id="githubUsername"></span> </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="divider"></div>
+                <div class="ticket-number">#0609</div>
+            </div>
+        </div>
+       </div>
+     </div>
+    <div class="mid-circle"></div>
+    <div class="decorative-slope-two"></div>
+
+
+
+
+
+    <script src="mai.js">
+       
+    </script>
+    
+</body>
+</html>
